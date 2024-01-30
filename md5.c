@@ -115,10 +115,9 @@ hash_t md5(const void *input, size_t len)
             }
             else
             {
-                int size = max(min(64, ((int)padded_len - input_index)), 1);
-                memset(chunk + i, 0, size);
-                i += size;
-                input_index += size;
+                chunk[i] = 0;
+                i++;
+                input_index++;
             }
         }
 
