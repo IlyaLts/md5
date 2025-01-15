@@ -29,7 +29,3 @@ int main()
 | --- | --- |
 | hash_t md5(const void *input, size_t len) | Calculates and returns an MD5 hash from an input. (hash_t) |
 | hash64_t md5_64(const void *input, size_t len) | Calculates and returns a custom 64-bit version of MD5 hash from an input. |
-
-## License
-
-md5 is licensed under the MIT License, see LICENSE.txt for more information.
